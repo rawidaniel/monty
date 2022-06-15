@@ -14,6 +14,7 @@ void get_opcode(char *op, stack_t **stack, unsigned int line_number)
 	instruction_t valid_ops[] = {
 		{"push", push_m},
 		{"pall", pall_m},
+		{"pint", pint_m},
 		{NULL, NULL}
 	};
 
