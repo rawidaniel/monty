@@ -38,6 +38,11 @@ int main(int argc, char *argv[])
 	{
 		line_number++;
 		op = strtok(lineptr, "\n\t\r ");
+		if (op[0] == '#')
+		{
+			nop_m(&stack, line_number);
+			continue;
+		}
 		if (op != NULL && op[0] != '#')
 		{
 			get_opcode(op, &stack, line_number);
