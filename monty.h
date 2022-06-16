@@ -71,6 +71,7 @@ void sub_m(stack_t **stack, unsigned int line_number);
 void mul_m(stack_t **stack, unsigned int line_number);
 void div_m(stack_t **stack, unsigned int line_number);
 void mod_m(stack_t **stack, unsigned int line_number);
+void pchar_m(stack_t **stack, unsigned int line_number);
 void fs_close_m(int status, void *arg);
 void free_stack(int status, void *arg);
 void free_lineptr(int status, void *arg);

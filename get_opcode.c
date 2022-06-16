@@ -23,6 +23,7 @@ void get_opcode(char *op, stack_t **stack, unsigned int line_number)
 		{"div", div_m},
 		{"mul", mul_m},
 		{"mod", mod_m},
+		{"pchar", pchar_m},
 		{NULL, NULL}
 	};
 
